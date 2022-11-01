@@ -1,0 +1,44 @@
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript">
+            document.oncontextmenu = function(){return false;}
+        </script>
+    
+
+    </head>
+
+
+    <body>
+        <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false" onkeydown="return false">
+                <section >
+                <h2>
+                <a href="file:///Users/yeohokim/Desktop/spot%205/index.html"><blink> 그 아픔을 느끼기도 전에 우리 앞에 희미하게 불빛과 작은 건물이 보였다.
+                우리는 그 불빛을 따라 더 가까이 가 보기로 했다.
+                분명 그 불빛은 민가에서 나오는 불빛이라고 나는 믿었다.
+                그 불빛을 따라가면 추위는 녹일 수 있다는 마음에 발걸음이 점점 더 빨라졌다.
+                그렇게 얼마 안 돼 그 희망의 불빛이 점점 가까이 다가오자 나는 그 빛이 나오는
+                건물이 바로 중국 국경 경비대 건물이라는 것을 알았다.
+                심장이 찢어지는 듯한 고통과 함께 우리는 재빨리 몸을 숨겼다.
+		        </blink></a>
+                </h2>
+                
+                <audio autoplay>
+                    <source src="audio/audio.mp3" type="audio/mp3">
+                </audio>
+                
+                </section>
+
+
+        <div class="light"></div>
+        <script type="text/javascript">
+            var pos = document.documentElement;
+            pos.addEventListener('mousemove', e =>{
+                pos.style.setProperty('--x', e.clientX + 'px')
+                pos.style.setProperty('--y', e.clientY + 'px')
+            })
+            var audio = document.getElementById('myAudio');
+            audio.volume = 0.3;
+        </script>
+    </body>
+</html>
